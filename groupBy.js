@@ -1,5 +1,3 @@
-// Note: Need to use node v21 using nvm
-
 let people = [
   { name: "Alice", specialization: "frontend", active: true },
   { name: "Bob", specialization: "backend", active: false },
