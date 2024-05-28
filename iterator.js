@@ -14,6 +14,10 @@ console.log([...iter]); // [1,  4,  9,  16, 25, 36, 64, 81, 100]
 
 //////////////////////
 // alternative
+
+// Eagerly calculate
+const iterHelperEager = arr.values().map((x) => x ** 2);
+
 // lazily calculate
 const iterHelper = arr.values().map((x) => x ** 2);
 
